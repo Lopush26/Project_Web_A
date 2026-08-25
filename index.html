@@ -3,88 +3,159 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Profil akademik dan portofolio proyek mahasiswa Teknik Informatika Universitas Hasanuddin.">
+    <meta name="description" content="Profil akademik dan portofolio proyek mahasiswa Teknik Informatika Universitas Hasanuddin - Rifaldi">
     <title>Profil Akademik &amp; Portofolio - Rifaldi</title>
 </head>
 <body>
-
-    <!-- Header Halaman: Berisi Brand Utama dan Navigasi -->
+    <!-- Header -->
     <header>
         <div>
-            <strong>Akbar.Dev</strong>
+            <strong>Rifaldi.Dev</strong>
         </div>
         <nav>
             <ul>
                 <li><a href="#tentang">Tentang Saya</a></li>
                 <li><a href="#akademik">Akademik</a></li>
+                <li><a href="#organisasi">Organisasi &amp; Volunteer</a></li>
                 <li><a href="#proyek">Portofolio Proyek</a></li>
+                <li><a href="#prestasi">Prestasi</a></li>
                 <li><a href="#kontak">Hubungi Saya</a></li>
             </ul>
         </nav>
     </header>
 
-    <!-- Konten Utama Halaman -->
     <main>
-        
-        <!-- Section Tentang Saya -->
+        <!-- Tentang Saya -->
         <section id="tentang">
             <h1>Profil Akademik &amp; Portofolio Profesional</h1>
             <article>
                 <h2>Tentang Saya</h2>
-                <p>Saya adalah mahasiswa aktif program studi <em>Teknik Informatika</em> yang berfokus pada pengembangan <em>Artificial Intellegent</em> dan <em>Internet of Things</em>.</p>
+                <p>
+                    Saya adalah mahasiswa Teknik Informatika Universitas Hasanuddin dengan rekam jejak akademik berprestasi dan fokus mendalam pada teknologi <em>Internet of Things</em> (IoT). Memiliki pengalaman kepemimpinan dalam mengoordinasikan manajemen organisasi, kaderisasi, serta pengelolaan tim logistik dalam berbagai kepanitiaan skala kampus.
+                </p>
+                <p>
+                    Terbukti adaptif dan memiliki kemampuan komunikasi yang baik melalui peran sebagai pengajar teknis dan pengabdian masyarakat, siap berkontribusi profesional di bidang teknologi dan manajemen proyek.
+                </p>
             </article>
         </section>
 
-        <!-- Section Informasi Akademik -->
+        <!-- Akademik -->
         <section id="akademik">
-            <h2>Riwayat Akademik</h2>
+            <h2>Riwayat Pendidikan</h2>
             <article>
                 <h3>Universitas Hasanuddin</h3>
                 <p><strong>Program Studi:</strong> S1 Teknik Informatika</p>
                 <p><strong>Tahun Masuk:</strong> 2024 - Sekarang</p>
-                <p>Berfokus pada pemahaman algoritma, struktur data, arsitektur komputer, serta rekayasa perangkat lunak berbasis web.</p>
+            </article>
+            <article>
+                <h3>SMA Islam Athirah Bone</h3>
+                <p><strong>Jurusan:</strong> IPA</p>
+                <p><strong>Tahun:</strong> 2021 - 2024</p>
             </article>
         </section>
 
-        <!-- Section Portofolio Proyek -->
+        <!-- Organisasi & Kepanitiaan -->
+        <section id="organisasi">
+            <h2>Pengalaman Organisasi &amp; Pengabdian</h2>
+            <article>
+                <h3>Coder Institute HMIF FT-UH</h3>
+                <p><strong>Peran:</strong> Staff Divisi Internet of Things (2026 - Sekarang)  </p>
+                <p>Mengajar anggota komunitas mengenai dasar-dasar praktis IoT serta merancang dan menyusun konten pembelajarandi bidang IoT  .</p>
+            </article>
+            <article>
+                <h3>UKM LD Al-Muhandis FT-UH</h3>
+                <p><strong>Peran:</strong> Koordinator Departemen Kaderisasi (2026 - Sekarang)  </p>
+                <p>Memimpin rekrutmen, seleksi, dan pengembangan kepemimpinan serta mengelola sistem evaluasi kader  .</p>
+            </article>
+            <article>
+                <h3>Inspirasi Desa Gen VII</h3>
+                <p><strong>Peran:</strong> Volunteer &amp; Sekretaris Tim (2026)  </p>
+                <p>Mengajar dan membimbing siswa di daerah pedesaan serta mengelola administrasi dan koordinasi kegiatan pengabdian masyarakat  .</p>
+            </article>
+        </section>
+
+        <!-- Portofolio Proyek -->
         <section id="proyek">
-            <h2>Proyek Mandiri Terbaru</h2>
-            
+            <h2>Proyek Terbaru</h2>
+
+            <!-- Proyek 1: OSCAR -->
             <article>
-                <h3>Aplikasi E-Library Kampus</h3>
-                <p>Membangun antarmuka sistem manajemen perpustakaan kampus berbasis HTML5 semantik dan CSS tata letak modern. Memaksimalkan aspek aksesibilitas untuk membantu mahasiswa berkebutuhan khusus.</p>
-                <p><a href="https://github.com/akbar/e-library" target="_blank" rel="noopener noreferrer">Lihat Kode Sumber</a></p>
+                <h3>OSCAR – Oral Squamous Cell carcinoma Automatic Recognition</h3>
+                <p>
+                    Proyek <strong>PKM KC</strong> tahun 2026 berupa sistem end-to-end untuk deteksi dini Oral Squamous Cell Carcinoma (kanker rongga mulut)  .
+                </p>
+                <p>
+                    Di sisi IoT, menggunakan <strong>ESP32</strong> yang dilengkapi tiga chip <strong>LMP91000</strong> untuk membaca tiga biomarker saliva secara bersamaan melalui sensor SPCE. Data kemudian dikirim ke <strong>Raspberry Pi menggunakan UART</strong>.
+                </p>
+                <p>
+                    Raspberry Pi memproses data dan menjalankan model <strong>Graph Neural Network</strong> dengan akurasi sekitar 97%. Hasilnya dikirim ke dashboard cloud yang dibangun menggunakan <strong>Next.js</strong> dan disimpan di database <strong>MySQL</strong>.
+                </p>
+                <p>
+                    <a href="https://oscar-monitoringv1.vercel.app" target="_blank" rel="noopener noreferrer">
+                        Lihat Kode Sumber
+                    </a>
+                </p>
             </article>
 
+            <!-- Proyek 2: Robot Mochi -->
             <article>
-                <h3>Sistem Pemantauan Suhu IoT</h3>
-                <p>Mengembangkan dashboard visualisasi data sensor suhu ruangan server laboratorium menggunakan pemrosesan data real-time sisi klien.</p>
-                <p><a href="https://github.com/akbar/iot-temp" target="_blank" rel="noopener noreferrer">Lihat Kode Sumber</a></p>
+                <h3>Robot Mochi</h3>
+                <p>
+                    Proyek pribadi berupa robot interaktif kecil berbasis <strong>ESP32-C3 SuperMini</strong>. Robot ini menampilkan ekspresi wajah berbeda di layar OLED sesuai cara pengguna menyentuhnya (single tap, double tap, dan lainnya).
+                </p>
+                <p>
+                    Menempatkan sensor kapasitif <strong>TTP223</strong> di balik casing tipis, serta merancang sistem daya menggunakan baterai Li-Po dan modul <strong>TP4056</strong> agar robot dapat beroperasi secara mandiri.
+                </p>
+                <p>
+                    <a href="https://github.com/Lopush26" target="_blank" rel="noopener noreferrer">
+                        Lihat Kode Sumber
+                    </a>
+                </p>
             </article>
-
         </section>
 
-        <!-- Aside: Informasi Tambahan/Sidebar -->
+        <!-- Prestasi -->
+        <section id="prestasi">
+            <h2>Prestasi &amp; Penghargaan</h2>
+            <ul>
+                <li>Pendanaan PKM Bidang Karsa Cipta (2026)  </li>
+                <li>Asisten Studi Al-Qur'an Intensif (SAINS) Unhas (2026)  </li>
+                <li>Awardee of Perintis Leadership Program - Perintis Scholarship (2024 - Sekarang)  </li>
+                <li>Finalis Olimpiade Sains Nasional (OSN) Bidang Biologi - Pusat Prestasi Nasional (2023)  </li>
+                <li>Juara 1 Olimpiade Biologi - <I>Biology Open Day</I> UNM (2023)  </li>
+                <li>Juara 3 Olimpiade Sains dan Kedokteran - <i>Alauddin Biomedical Olympiad</i> UINAM (2023)  </li>
+                <li>Finalis Olimpiade Biologi - UI <i>Biology Festival 11th</i> (2023)  </li>
+                <li>Juara 1 Olimpiade Biologi -<i>Biology Event</i>UNHAS (2022)  </li>
+            </ul>
+        </section>
+
+        <!-- Keahlian -->
         <aside>
             <h2>Keahlian Teknis</h2>
             <ul>
-                <li>Full-Stack Web Development : Next.js 14, React.js &amp; TypeScript,dan Tailwind CSS </li>
-                <li>IoT &amp; Embedded Systems : ESP32 (Arduino C++), Raspberry Pi (python) </li>
-                <li>ghjkj</li>
-                <li>Version Control (Git &amp; GitHub)</li>
+                <li>IoT &amp; Embedded Systems: ESP32, ESP32-C3, Raspberry Pi, Sensor Integration &amp; Microcontrollers  </li>
+                <li>Junior Full-Stack Web Development</li>
+                <li>AI &amp; Data: Graph Neural Network (GNN), MySQL</li>
+                <li>Manajemen &amp; Administrasi: Manajemen Proyek, Logistik &amp; Pengelolaan Database  </li>
             </ul>
         </aside>
-
     </main>
 
-    <!-- Footer Halaman: Informasi Kontak & Hak Cipta -->
+    <!-- Footer -->
     <footer>
         <section id="kontak">
-            <h2>Kontak Akademik</h2>
-            <p>Email: <a href="mailto:rifaldi24d@student.unhas.ac.id">rifaldi24d@student.unhas.ac.id</a></p>
+            <h2>Kontak Akademik &amp; Profesional</h2>
+            <p>
+                Email: 
+                <a href="mailto:rifaldi2646@gmail.com">rifaldi2646@gmail.com</a> | 
+                <a href="mailto:rifaldi24d@student.unhas.ac.id">rifaldi24d@student.unhas.ac.id</a>  
+            </p>
+            <p>
+                GitHub: <a href="https://github.com/Lopush26" target="_blank" rel="noopener noreferrer">github.com/Lopush26</a>   | 
+                Instagram: <a href="https://instagram.com/iamrfal" target="_blank" rel="noopener noreferrer">@iamrfal</a>  
+            </p>
         </section>
-        <p>&copy; 2026 Rifaldi. All Rights Reserved. Dibuat untuk memenuhi tugas Pemrograman Web.</p>
+        <p>&copy; 2026 Rifaldi. All Rights Reserved.</p>
     </footer>
-
 </body>
 </html>
